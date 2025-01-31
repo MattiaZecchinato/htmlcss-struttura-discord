@@ -63,5 +63,28 @@ header
     gap: 10px;
 }
 
+.link-box a {
+    
+    all: unset;
+}
 
-/*** 2st header container ***/
+
+/*** 2nd header container ***/
+
+.main-article-container {
+
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    border-bottom: 4px solid #add8e6;
+}
+
+.main-article-box {
+
+    height: 200px;
+    width: 900px;
+
+    background-color: #ee82ee;
+    border: 1px dashed #000000;
+}
