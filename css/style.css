@@ -14,15 +14,14 @@ body {
 common 
 ******/
 
+div > div {
+
+    border: 2px dashed #000000;
+}
 
 /****** 
 header 
 ******/
-
-header > div > div {
-
-    border: 2px dashed #000000;
-}
 
 
 /*** 1st header container ***/
@@ -98,11 +97,6 @@ main
 main > div {
 
     padding: 50px 360px;
-}
-
-main > div > div {
-
-    border: 2px dashed #000000;
 }
 
 main > div:nth-child(odd) {
@@ -196,4 +190,36 @@ main > div:last-child {
     flex-grow: 1;
     background-color: #20b2aa;
     border: 2px dashed #ffffff;
+}
+
+
+/****** 
+footer 
+******/
+
+footer {
+
+    background-color: #23272a;
+    border-bottom: 2px solid #ffffff;
+    padding: 30px 360px 0px;
+}
+
+.footer-container {
+
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+div.footer-container > * {
+
+    background-color: #ffb6c1;
+    padding: 10px 15px;
+}
+
+.footer-btn {
+
+    all: unset;
+    border: 2px dashed #000000;
 }
