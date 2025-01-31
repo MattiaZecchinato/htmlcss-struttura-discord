@@ -94,12 +94,12 @@ header
 main 
 ******/
 
-main:nth-child(even) {
+main > div:nth-child(odd) {
 
     background-color: #ffffff;
 }
 
-main:nth-child(odd) {
+main > div:nth-child(even) {
 
     background-color: #d3d3d3;
 }
@@ -128,4 +128,9 @@ main:nth-child(odd) {
 
     background-color: #ffc0cb;
     border: 1px dashed #000000;
+}
+
+.flop-container {
+
+    flex-direction: row-reverse;
 }
