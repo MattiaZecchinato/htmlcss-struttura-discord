@@ -9,3 +9,59 @@ body {
 
     background-color: black;
 }
+
+/******
+common 
+******/
+
+
+/****** 
+header 
+******/
+
+
+/*** 1st header container ***/
+.bar-container {
+
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 350px;
+}
+
+.bar-container > div {
+
+    background-color: #daa520;
+    border: 1px dashed #000000;
+    padding: 15px;
+}
+
+/* bar-container elements */
+.side-box {
+
+    width: 240px;
+}
+
+.login-box {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-box {
+
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.link-box ul {
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+
+/*** 2st header container ***/
