@@ -115,7 +115,12 @@ main > div:nth-child(even) {
     background-color: #d3d3d3;
 }
 
-/* secondary article container */
+main > div:last-child {
+
+    background-color: #23272a;
+}
+
+/*** secondary article container ***/
 .secondary-article-container {
 
     display: flex;
@@ -143,8 +148,7 @@ main > div:nth-child(even) {
     flex-direction: row-reverse;
 }
 
-/* big article container */
-
+/*** big article container ***/
 .big-article-container {
 
     justify-content: center;
@@ -156,4 +160,40 @@ main > div:nth-child(even) {
 
     flex-grow: 1;
     background-color: #228b22;
+}
+
+/*** multiple article container ***/
+
+.multiple-article-container {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #9a9a9a;
+}
+
+.side-multiple {
+
+    height: 350px;
+    width: 360px;
+
+    background-color: #f08080;
+}
+
+.multiple-article {
+
+    height: 350px;
+
+    flex-grow: 1;
+    display: flex;
+}
+
+.element-article {
+
+    height: 350px;
+
+    flex-grow: 1;
+    background-color: #20b2aa;
+    border: 2px dashed #ffffff;
 }
