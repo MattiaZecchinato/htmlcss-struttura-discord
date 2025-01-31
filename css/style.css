@@ -19,6 +19,11 @@ common
 header 
 ******/
 
+header > div > div {
+
+    border: 2px dashed #000000;
+}
+
 
 /*** 1st header container ***/
 .bar-container {
@@ -26,14 +31,12 @@ header
     background-color: #add8e6;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 20px 360px;
 }
 
 .bar-container > div {
 
     background-color: #daa520;
-    border: 1px dashed #000000;
     padding: 15px;
 }
 
@@ -70,7 +73,6 @@ header
 
 
 /*** 2nd header container ***/
-
 .main-article-container {
 
     background-color: #00008b;
@@ -86,13 +88,22 @@ header
 
     flex-grow: 1;
     background-color: #ee82ee;
-    border: 1px dashed #000000;
 }
 
 
 /****** 
 main 
 ******/
+
+main > div {
+
+    padding: 50px 360px;
+}
+
+main > div > div {
+
+    border: 2px dashed #000000;
+}
 
 main > div:nth-child(odd) {
 
@@ -109,16 +120,14 @@ main > div:nth-child(even) {
 
     display: flex;
     justify-content: center;
-    padding: 50px 360px;
 }
 
 .article {
 
-    width: 720px;
     height: 300px;
 
+    flex-grow: 1;
     background-color: #1e90ff;
-    border: 1px dashed #000000;
 }
 
 .side-article {
@@ -127,10 +136,24 @@ main > div:nth-child(even) {
     height: 300px;
 
     background-color: #ffc0cb;
-    border: 1px dashed #000000;
 }
 
 .flop-container {
 
     flex-direction: row-reverse;
+}
+
+/* big article container */
+
+.big-article-container {
+
+    justify-content: center;
+}
+
+.big-article-box {
+
+    height: 500px;
+
+    flex-grow: 1;
+    background-color: #228b22;
 }
